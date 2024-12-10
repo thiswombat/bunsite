@@ -78,7 +78,16 @@
 .nvbele {
 	flex:1;
 	margin:0px;
-	background-color:lightpink;
+	background-color:pink;
 	border:6px solid white;
 	border-radius:16px;
 }
+
+.nvbcur {
+        flex:1;
+        margin:0px;
+        background-color:hotpink;
+        border:6px solid white;
+        border-radius:16px;
+}
+

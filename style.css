@@ -1,18 +1,84 @@
-.side {
-	flex:0;
-	background-color:mediumpurple;
-	color:pink;
-        font-size:15px;
-	border-left:10px solid black;
-	margin:10px;
-	padding:15px;
+.head {
+	text-align:center;
+	font-size:80%;
+	background-color:pink;
+	color:black;
+
+	padding:10px 35px 10px 10px;
+	margin:0px;
+	border-top:4px solid white;
+	border-left:4px solid white;
 
 }
-.side div{
-	flex:1;
-	margin:15px;
-	padding:15px;
-	border:2px solid black;
-	width:200px;
 
+.container {
+	display:flex;
+	padding:0px 0px 0px 0px; 
+	width:100%;
+	
+}
+
+.sidepanel {
+
+
+	flex:0;
+	margin:0px;
+	padding:0px;
+	background-color:pink;
+	color:black;
+	font-size:100%;
+	text-align:left;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-left:4px solid white;
+	border-right:4px solid white;
+	
+}
+
+.sidepanel div{
+	flex:1;
+	margin-left:0px;
+	padding:10px;
+	width:auto;
+	text-align:left;
+
+}
+.sidepanel lu{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	display:inline-block;
+	text-align:left;
+
+}
+
+.sidepanel li{
+	margin:10px;
+	display:inline-block;
+	padding:0;
+	font-size:80%
+
+}
+
+.center {
+	flex:1;
+	background-color:pink;
+	color:black;
+	border-top:4px solid white; 
+	border-bottom:4px solid white;
+	border-left:4px solid white;
+	border-right:4px solid white;
+
+	width:auto;
+	text-align:center;
+	padding:0px 35px 35px 0px
+
+}
+
+.nvbele {
+	flex:1;
+	margin:0px;
+	background-color:lightpink;
+	border:6px solid white;
+	border-radius:16px;
 }
